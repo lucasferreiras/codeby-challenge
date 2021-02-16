@@ -1,5 +1,3 @@
-import { useContext } from "react";
-import { CartContext } from "../context/Context";
 import "../styles/ProductCard.css";
 
 function ProductCard(props) {

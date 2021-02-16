@@ -25,8 +25,8 @@ function ProductList() {
         </div>
       </div>
 
-      <div>
-        <button>Finalizar compra</button>
+      <div className="buttonContainer">
+        <button className="listButton">Finalizar compra</button>
       </div>
     </div>
 
