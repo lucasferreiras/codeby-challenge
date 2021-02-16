@@ -1,0 +1,30 @@
+.listContainer {
+  background-color: white;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 15px;
+  width: 50%;
+}
+
+.listHead {
+  border-bottom: 1px solid #d4d4d4;
+  text-align: center;
+  padding-top: 1px;
+}
+
+.listTitle {
+  font-size: 30px;
+}
+
+.footerTotal {
+  border-bottom: solid 1px #d4d4d4;
+  border-top: solid 1px #d4d4d4;
+}
+
+.totalContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px 0 20px;
+}
+
+
