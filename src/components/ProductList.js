@@ -24,7 +24,13 @@ function ProductList() {
           <h2 className="totalPrice">R$ {formatMoney(cart?.value)}</h2>
         </div>
       </div>
+
+      <div>
+        <button>Finalizar compra</button>
+      </div>
     </div>
+
+
   );
 }
 export default ProductList;
