@@ -16,6 +16,8 @@
 
 .listTitle {
   font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
 }
 
 .footerTotal {
@@ -28,6 +30,16 @@
   display: flex;
   justify-content: space-between;
   margin: 0 20px 0 20px;
+}
+
+.totalPrice {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+
+.totalTitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
 }
 
 .buttonContainer {
@@ -44,10 +56,13 @@
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 25px;
   width: 80%;
   outline: none;
   cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+
 }
 
 .freteContainer {
@@ -61,6 +76,9 @@
   justify-content: center;
   background-color: #c7ffa6;
   color: #277a02;
-  border-radius: 20px;
-  font-size: 15px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+
 }

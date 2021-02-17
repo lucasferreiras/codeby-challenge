@@ -9,7 +9,7 @@ function ProductList() {
   return (
     <div className="listContainer">
       <div className="listHead">
-        <h2 className="listTitle">Meu Carrinho</h2>
+        <h2 className="listTitle">Meu carrinho</h2>
       </div>
 
       <div>

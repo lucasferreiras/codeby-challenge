@@ -27,8 +27,14 @@
   margin: 5px 0 3px 0;
   font-size: 14px;
   color: #808080;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+
 }
 
 .cardDiscount {
   margin-top: 3px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  
 }
