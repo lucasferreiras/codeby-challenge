@@ -3,7 +3,6 @@ import axios from "axios";
 
 export const CartContext = createContext();
 
-
 function CartContextProvider({ children, apiURL }) {
   const [cart, setCart] = useState();
 
@@ -18,9 +17,10 @@ function CartContextProvider({ children, apiURL }) {
     return (parseFloat(number) / 100.0).toFixed(2).replace(".", ",");
   }
 
-
   return (
-    <CartContext.Provider value={{ cart,formatMoney }}>{children}</CartContext.Provider>
+    <CartContext.Provider value={{ cart, formatMoney }}>
+      {children}
+    </CartContext.Provider>
   );
 }
 

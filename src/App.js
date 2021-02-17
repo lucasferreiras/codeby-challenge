@@ -22,9 +22,9 @@ function App() {
   return (
     <div className="appContainer">
       <CartContextProvider apiURL={apiURL}>
-        <div className=".buttonContainerApi">
+        <div className="buttonContainerApi">
           <button onClick={toggleApiURL} className="buttonChangeApi">
-            {apiURL === API_LESS_TEN ? "Ver com frete" : "Ver sem frete"}
+            {apiURL === API_LESS_TEN ? "Ver com frete grátis" : "Ver sem frete grátis"}
           </button>
         </div>
         <Routes />
